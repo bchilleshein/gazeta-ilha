@@ -201,6 +201,14 @@ button {
   .headline-text {
     flex: 1;
   }
+
+  .stories {
+    flex-direction: row;
+  }
+
+  .story {
+    flex: 1;
+  }
 }
 
 
