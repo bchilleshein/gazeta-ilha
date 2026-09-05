@@ -184,6 +184,43 @@ button {
   line-height: 1.35;
 }
 
+.box {
+  background-color: #f2efe8;
+  border: 1px solid #ddd7cb;
+  padding: 14px;
+}
+
+.box-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.box-line {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #57534d;
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 2px solid #1c1b19;
+  margin-top: 32px;
+  padding-top: 20px;
+}
+
+.footer-title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.footer-line {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #57534d;
+}
+
 @media (min-width: 720px) {
   body {
     max-width: 900px;
@@ -207,6 +244,14 @@ button {
   }
 
   .story {
+    flex: 1;
+  }
+
+  .site-footer {
+    flex-direction: row;
+  }
+
+  .footer-column {
     flex: 1;
   }
 }
